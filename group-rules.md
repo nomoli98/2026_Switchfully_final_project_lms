@@ -77,10 +77,10 @@ exemple:
       |_requests
       |_responses
    |_mappers
-|_pages
-   |_ shared // Components that are used in multiple features
+|_ shared // Components that are used in multiple features
       |_forms
-   |_auth // Components that are feature pages => what the user sees
+|_pages // the visible pages for the users
+   |_auth
       |_register // = register page
          |_register.component.ts
          |_register.component.html
